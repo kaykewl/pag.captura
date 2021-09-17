@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-color: black;
+}
+header {
+  background-color:cornflowerblue;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  padding: 10px;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.formContainer {
+  max-width: 230px;
+  background-color: #ffffffbb;
+  text-align: center;
+  padding: 20px;
+  float: right;
+}
+h2 {
+  font-size: 18px;
+} 
+.mb {
+  margin-bottom: 15px;
+}
+/***** vale pra input e select *******/
+input, select {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+/**** Ajustando setinha *****/
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(./images/arrow.jpg);
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
+}
+/*cofig aplicada somente no input submit*/
+input[type="submit"] {
+  color: white; 
+  background-color: cornflowerblue;
+  font-weight: bold;
+}  
+/*** config apenas pro section ***/
+section {
+  padding: 20px;
+  background-image: url(./images/people.jpg);
+  background-size: cover;
+  overflow: hidden;
+} 
+img {
+  width: 160px;
+}
+footer {
+  padding: 40px;
+  text-align: center;
+  background-color: rgb(37, 37, 37);
+} 
+.description {
+  color: white;
+  display: inline-block;
+  width: 50%;
+  margin-left: 40px;
+  text-align: left;
+}
+.description p, .description h2 {
+  margin-bottom: 20px;
+}
+.description h2 {
+  font-size: 24px;
+} 
+@media screen and (max-width: 600px) {
+  .formContainer {
+    float: none;
+    margin: auto;
+  }
+  .description {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+.copy {
+  color: white;
+}
