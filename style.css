@@ -6,16 +6,16 @@ body {
   font-family: 'PT Sans', sans-serif;
   background-color: black;
 }
+.container {
+  max-width: 1000px;
+  margin: auto;
+} 
 header {
   background-color:cornflowerblue;
   color: white;
   text-align: center;
   font-size: 13px;
   padding: 10px;
-}
-.container {
-  max-width: 1000px;
-  margin: auto;
 }
 .formContainer {
   max-width: 230px;
@@ -61,6 +61,7 @@ section {
   background-size: cover;
   overflow: hidden;
 } 
+/***Image do footer***/
 img {
   width: 160px;
 }
@@ -77,7 +78,7 @@ footer {
   text-align: left;
 }
 .description p, .description h2 {
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
 }
 .description h2 {
   font-size: 24px;
